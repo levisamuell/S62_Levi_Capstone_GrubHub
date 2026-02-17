@@ -18,7 +18,7 @@ const CheckoutPage = () => {
     }
 
     try {
-      const res = await fetch('http://localhost:8080/user/order', {
+      const res = await fetch('https://s62-levi-capstone-grubhub-4.onrender.com/user/order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
